@@ -1,7 +1,11 @@
-// $(".hamburger-menu").addClass("active");
-// $(".fa-bars").click(function(){
-//     $(".hamburger-menu").addClass("active");
-// });
-// $(".fa-times").click(function(){
-//     $(".hamburger-menu").removeClass("active");
-// });
+$(document).ready(function(){
+    $(".header-item > i").click(function(){
+        // $(".submenu").addClass("display-none");
+        if ($(this).siblings(".submenu").hasClass("display-none")) {
+            $(".submenu").addClass("display-none");
+            $(this).siblings(".submenu").removeClass("display-none");
+        } else {
+            $(".submenu").addClass("display-none");
+        }
+    });
+});

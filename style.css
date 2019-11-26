@@ -2,5 +2,56 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background-image: url(https://images.all-free-download.com/images/graphiclarge/pink_peonies_seamless_pattern_hand_drawing_vector_584021.jpg);
+}
+
+header {
+    margin: 25px 50px;
+    height: 50px;
+    border: 3px solid crimson;
+    border-radius: 25px;
+    background-color: lightpink;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-item {
+    text-align: center;
+}
+
+.header-item > i {
+    font-size: 25px;
+    line-height: 44px;
+    color: crimson;
+}
+
+.header-item .submenu i {
+    font-size: 25px;
+    line-height: 44px;
+    color: crimson;
+}
+
+.header-item i:hover {
+    cursor: pointer;
+}
+
+.submenu {
+    width: 66px;
+    border: 3px solid crimson;
+    border-top: transparent;
+    border-radius: 0 0 33px 33px;
+    background-color: rgba(0,0,0,0.85)
+}
+
+.display-none {
+    visibility: hidden;
+}
+
+.display-block {
+    visibility: visible;
 }
